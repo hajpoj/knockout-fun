@@ -1,0 +1,21 @@
+<h1>Pager</h1>
+<ul>
+  <li><a data-bind="page-href: 'start'">page1</a></li>
+  <li><a data-bind="page-href: 'page2'">page2</a></li>
+  <li><a data-bind="page-href: 'page3'">page3</a></li>
+</ul>
+<div data-bind="page: { id: 'start'}">
+  <div class="page">
+    page1
+  </div>
+</div>
+<div data-bind="page: { id: 'page2' }">
+  <div class="page">
+    page2
+  </div>
+</div>
+<div data-bind="page: { id: 'page3' }">
+  <div class="page">
+    page3
+  </div>
+</div>
